@@ -4,7 +4,8 @@ SSD300-VGG16-Pytorch-Implement
 source code based on https://github.com/amdegroot/ssd.pytorch/tree/master/data
 
 
-Training SSD
+#Training SSD
+
 First download the fc-reduced VGG-16 PyTorch base network weights at: https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 By default, we assume you have downloaded the file in the ssd.pytorch/weights dir:
 mkdir weights
