@@ -38,7 +38,7 @@ def cmd_parser():
     # 文件保存路径
     parser.add_argument('--save_folder', default='weights/',
                         help='Directory for saving checkpoint models')
-    parser.add_argument('--save_iter', default=2, type=int,
+    parser.add_argument('--save_iter', default=500, type=int,
                         help='Directory for saving checkpoint models')
     # 恢复训练
     parser.add_argument('--basenet', default='vgg16_withoutfc.pkl',
@@ -104,7 +104,7 @@ def load_para(args):
     else:
         print('===> Not exist, initilizing the para...')
         para = {
-            'iter': 200000,
+            'iter': 0,
             'optimizer_param': None,
             'loss_list': [],
             'result_list': [],
