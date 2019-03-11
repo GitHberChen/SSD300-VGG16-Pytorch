@@ -7,7 +7,6 @@ source code based on https://github.com/amdegroot/ssd.pytorch/tree/master/data
 
 First download the fc-reduced VGG-16 PyTorch base network weights at: https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 By default, we assume you have downloaded the file in the ssd-pytorch/weights dir:
->>>>>>> 590689371a1e52123b1ab747e7d45c170cacd156
 mkdir weights
 cd weights
 wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
