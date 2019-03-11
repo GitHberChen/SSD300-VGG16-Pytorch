@@ -4,10 +4,17 @@ SSD300-VGG16-Pytorch-Implement
 source code based on https://github.com/amdegroot/ssd.pytorch/tree/master/data
 
 
+<<<<<<< HEAD
 #Training SSD
 
 First download the fc-reduced VGG-16 PyTorch base network weights at: https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 By default, we assume you have downloaded the file in the ssd.pytorch/weights dir:
+=======
+# Training SSD
+
+First download the fc-reduced VGG-16 PyTorch base network weights at: https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
+By default, we assume you have downloaded the file in the ssd-pytorch/weights dir:
+>>>>>>> 590689371a1e52123b1ab747e7d45c170cacd156
 mkdir weights
 cd weights
 wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
@@ -17,3 +24,7 @@ Note:
 For training, an NVIDIA GPU is strongly recommended for speed.
 For instructions on Visdom usage/installation, see the Installation section.
 You can pick-up training from a checkpoint by specifying the path as one of the training parameters (again, see train.py for options)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 590689371a1e52123b1ab747e7d45c170cacd156
